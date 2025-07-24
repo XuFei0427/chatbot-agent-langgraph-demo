@@ -1,0 +1,11 @@
+// Agent StateGraph
+digraph {
+	agent [label="Agent节点"]
+	action [label="Action节点"]
+	process_tool [label="ProcessTool节点"]
+	end [label="END(结束)"]
+	agent -> action [label="需要工具"]
+	agent -> end [label="直接回复"]
+	action -> process_tool
+	process_tool -> agent
+}

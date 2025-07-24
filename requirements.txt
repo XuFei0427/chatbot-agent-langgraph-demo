@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-core
+langchain-experimental
+langgraph
+pydantic
+langchain-deepseek
+fastapi
+uvicorn
+python-dotenv 
